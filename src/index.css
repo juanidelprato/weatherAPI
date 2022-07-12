@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('./assets/sunset.jpg') no-repeat center center/cover fixed;
+  min-height: 100vh;
+  max-width: 100vw;
+  z-index: -1;
+  color: aliceblue;
+}
+
+input::placeholder {
+  @apply text-slate-200;
+}
+.sidebar {
+  background: rgba(110, 110, 110, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 3rem 2rem;
+}
+
+.opacidad {
+  height: 100vh;
+  width: 100%;
+}
